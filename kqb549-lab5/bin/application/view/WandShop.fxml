@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.WandShopController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="550.0" opacity="0.5">
+         <image>
+            <Image url="@../../../Screen%20Shot%202018-10-20%20at%201.40.41%20PM.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="242.0" layoutY="523.0" mnemonicParsing="false" onAction="#handle" prefHeight="48.0" prefWidth="131.0" style="-fx-background-color: #2e3033;" text="Save" textFill="WHITE">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="81.0" layoutY="22.0" prefHeight="78.0" prefWidth="388.0" text="Ollivanders" textAlignment="RIGHT">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+         <padding>
+            <Insets left="120.0" />
+         </padding>
+      </Label>
+      <Label layoutX="221.0" layoutY="80.0" prefHeight="41.0" prefWidth="109.0" text="Wandshop">
+         <font>
+            <Font name="AppleGothic Regular" size="14.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </Label>
+      <Label layoutX="81.0" layoutY="171.0" prefHeight="41.0" prefWidth="116.0" text="Wood" textFill="#461b1b">
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="combox1" layoutX="231.0" layoutY="174.0" prefHeight="35.0" prefWidth="200.0" />
+      <ComboBox fx:id="combox2" layoutX="231.0" layoutY="236.0" prefHeight="35.0" prefWidth="200.0" />
+      <ComboBox fx:id="combox3" layoutX="230.0" layoutY="308.0" prefHeight="35.0" prefWidth="200.0" />
+      <ComboBox fx:id="combox4" layoutX="231.0" layoutY="389.0" prefHeight="35.0" prefWidth="200.0" />
+      <Label layoutX="81.0" layoutY="305.0" prefHeight="41.0" prefWidth="116.0" text="Length" textFill="#461b1b">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Label>
+      <Label layoutX="81.0" layoutY="233.0" prefHeight="41.0" prefWidth="116.0" text="Core" textFill="#461b1b">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Label>
+      <Label layoutX="81.0" layoutY="386.0" prefHeight="41.0" prefWidth="116.0" text="Quality" textFill="#461b1b">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Label>
+   </children>
+</AnchorPane>

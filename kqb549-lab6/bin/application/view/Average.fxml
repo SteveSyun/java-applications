@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #eabfab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.AverageController">
+   <children>
+      <Button fx:id="buttonhome" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handle" style="-fx-background-color: #071f44;" text="Home" textFill="WHITE" />
+      <Label contentDisplay="CENTER" layoutX="146.0" layoutY="17.0" prefHeight="48.0" prefWidth="306.0" text="Average Calculator">
+         <font>
+            <Font name="Andale Mono" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="175.0" layoutY="66.0" prefHeight="26.0" prefWidth="246.0" text="UTSA COMPUTER SCIENCE" textFill="#dd1b1b" />
+      <Label alignment="CENTER" layoutX="120.0" layoutY="236.0" prefHeight="55.0" prefWidth="360.0" text="Enter value to computer an average:">
+         <font>
+            <Font name="Apple LiGothic Medium" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="156.0" layoutY="283.0" prefHeight="34.0" prefWidth="289.0" text="(sperate each value with space)" textFill="#1d16ee">
+         <font>
+            <Font name="AppleGothic Regular" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfield1" layoutX="97.0" layoutY="317.0" prefHeight="52.0" prefWidth="409.0" />
+      <Button fx:id="Calculating" layoutX="209.0" layoutY="412.0" mnemonicParsing="false" onAction="#handle" prefHeight="52.0" prefWidth="184.0" style="-fx-background-color: #071f44;" text="Calculate" textFill="WHITE" />
+      <Label layoutX="189.0" layoutY="493.0" prefHeight="45.0" prefWidth="67.0" text="Result:">
+         <font>
+            <Font name="Apple LiGothic Medium" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfield2" layoutX="253.0" layoutY="493.0" prefHeight="45.0" prefWidth="130.0" />
+      <Label fx:id="Derorr" layoutX="205.0" layoutY="377.0" prefHeight="27.0" prefWidth="193.0" textFill="#dd0c0c" />
+   </children>
+</AnchorPane>

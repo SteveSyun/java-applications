@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="650.0" style="-fx-background-color: #eabfab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.GradeController">
+   <children>
+      <Button fx:id="calculating" layoutX="216.0" layoutY="488.0" mnemonicParsing="false" onAction="#handle" prefHeight="52.0" prefWidth="184.0" style="-fx-background-color: #071f44;" text="Calculate" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="185.0" layoutY="76.0" prefHeight="26.0" prefWidth="246.0" text="UTSA COMPUTER SCIENCE" textFill="#dd1b1b" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="172.0" layoutY="27.0" prefHeight="48.0" prefWidth="306.0" text="Grade Calculator">
+         <font>
+            <Font name="Apple LiGothic Medium" size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="homebutton" layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#handle" style="-fx-background-color: #071f44;" text="Home" textFill="WHITE" />
+      <Slider fx:id="slider1" layoutX="200.0" layoutY="170.0" prefHeight="33.0" prefWidth="350.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+      <Slider fx:id="slider2" layoutX="200.0" layoutY="230.0" prefHeight="33.0" prefWidth="350.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="slider3" layoutX="200.0" layoutY="290.0" prefHeight="33.0" prefWidth="350.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="slider4" layoutX="200.0" layoutY="350.0" prefHeight="33.0" prefWidth="350.0" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="slider5" layoutX="200.0" layoutY="410.0" prefHeight="33.0" prefWidth="350.0" showTickLabels="true" showTickMarks="true" />
+      <Label layoutX="52.0" layoutY="169.0" prefHeight="35.0" prefWidth="114.0" text="Labs">
+         <font>
+            <Font name="Apple Color Emoji" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="229.0" prefHeight="35.0" prefWidth="84.0" text="Quizzes">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="289.0" prefHeight="33.0" prefWidth="129.0" text="Team Project">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="349.0" prefHeight="33.0" prefWidth="129.0" text="Midtern Exam">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="410.0" prefHeight="29.0" prefWidth="130.0" text="Final Exam">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfield1" layoutX="558.0" layoutY="148.0" prefHeight="45.0" prefWidth="50.0" />
+      <TextField fx:id="textfield2" layoutX="558.0" layoutY="208.0" prefHeight="45.0" prefWidth="50.0" />
+      <TextField fx:id="textfield3" layoutX="558.0" layoutY="268.0" prefHeight="45.0" prefWidth="50.0" />
+      <TextField fx:id="textfield4" layoutX="558.0" layoutY="328.0" prefHeight="45.0" prefWidth="50.0" />
+      <TextField fx:id="textfield5" layoutX="558.0" layoutY="388.0" prefHeight="45.0" prefWidth="50.0" />
+      <Label layoutX="615.0" layoutY="146.0" prefHeight="48.0" prefWidth="29.0" text="\%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="615.0" layoutY="205.0" prefHeight="48.0" prefWidth="29.0" text="\%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="615.0" layoutY="264.0" prefHeight="48.0" prefWidth="29.0" text="\%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="615.0" layoutY="326.0" prefHeight="48.0" prefWidth="29.0" text="\%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="616.0" layoutY="386.0" prefHeight="48.0" prefWidth="29.0" text="\%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Displayfield" layoutX="200.0" layoutY="550.0" prefHeight="74.0" prefWidth="95.0" />
+      <TextField fx:id="Lettergradef" layoutX="328.0" layoutY="550.0" prefHeight="74.0" prefWidth="95.0" />
+      <Label fx:id="ErrorM" layoutX="180.0" layoutY="455.0" prefHeight="33.0" prefWidth="441.0" textFill="#fc0000">
+         <font>
+            <Font name="Apple Braille" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

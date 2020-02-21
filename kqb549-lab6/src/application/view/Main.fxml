@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="650.0" style="-fx-background-color: #eabfab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <Button fx:id="button2" layoutX="376.0" layoutY="314.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#handle" prefHeight="90.0" prefWidth="160.0" style="-fx-background-color: #444b4c;" text="Calculate a Course Grade" textAlignment="CENTER" textFill="#f8f8f8" wrapText="true">
+         <cursor>
+            <Cursor fx:constant="E_RESIZE" />
+         </cursor>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button1" layoutX="108.0" layoutY="314.0" mnemonicParsing="false" onAction="#handle" prefHeight="90.0" prefWidth="160.0" style="-fx-background-color: #444b4c;" styleClass="white" text="Calculate an Average" textAlignment="CENTER" textFill="#f8f6f6" wrapText="true">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Label alignment="CENTER" layoutX="90.0" layoutY="14.0" prefHeight="121.0" prefWidth="470.0" text="CALCULAR">
+         <font>
+            <Font name="American Typewriter" size="45.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="210.0" layoutY="118.0" prefHeight="34.0" prefWidth="285.0" text="UTSA COMPUTER SCIENCE" textAlignment="CENTER" textFill="#ee1414">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="550.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.LoginController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="650.0" layoutX="-1.0" opacity="0.2">
+         <image>
+            <Image url="@../../../Screen%20Shot%202018-10-20%20at%201.33.21%20PM.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="54.0" layoutY="224.0" prefHeight="48.0" prefWidth="176.0" text=" Enter your name:">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="63.0" prefHeight="59.0" prefWidth="176.0" text="     Wand Shop">
+         <font>
+            <Font name="Avenir Black Oblique" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="6.0" prefHeight="78.0" prefWidth="388.0" text="    Ollivanders Wand Shop">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="315.0" prefHeight="48.0" prefWidth="109.0" text="Password:">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="PassWord" layoutX="266.0" layoutY="322.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="278.0" layoutY="424.0" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="126.0" style="-fx-background-color: #2e3033;" text="Log In" textFill="WHITE">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></Button>
+      <TextField fx:id="UserName" layoutX="266.0" layoutY="231.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label fx:id="PError" layoutX="271.0" layoutY="363.0" prefHeight="35.0" prefWidth="222.0" textFill="#ee0b0b" />
+   </children>
+</AnchorPane>

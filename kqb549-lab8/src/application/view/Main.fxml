@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <Label alignment="CENTER" layoutX="225.0" layoutY="94.0" prefHeight="78.0" prefWidth="200.0" style="-fx-border-radius: 55; -fx-border-color: black;" text="Story time" textFill="#0e2c97">
+         <font>
+            <Font name="Arial Black" size="26.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="180.0" layoutY="205.0" prefHeight="67.0" prefWidth="290.0" text="Select the story you'd like to see:">
+         <font>
+            <Font name="Avenir Black" size="13.0" />
+         </font>
+      </Label>
+      <HBox layoutX="139.0" layoutY="285.0" prefHeight="140.0" prefWidth="380.0" style="-fx-border-color: black; -fx-border-radius: 5;">
+         <children>
+            <RadioButton fx:id="story1" mnemonicParsing="false" onAction="#handle" prefHeight="170.0" prefWidth="250.0" style="-fx-padding: 35;" text="Shanks">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="story2" mnemonicParsing="false" onAction="#handle" prefHeight="170.0" prefWidth="250.0" style="-fx-padding: 35;" text="Dinos">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font></RadioButton>
+         </children>
+      </HBox>
+      <Button fx:id="start" layoutX="220.0" layoutY="469.0" mnemonicParsing="false" onAction="#handle" prefHeight="70.0" prefWidth="218.0" style="-fx-background-radius: 50; -fx-background-color: linear-gradient(#89051f, #190623);" text="Start" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="22.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
